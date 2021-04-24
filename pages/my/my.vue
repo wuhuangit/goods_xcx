@@ -58,7 +58,7 @@
 			loginbtn(){
 				let _this = this
 				uni.request({
-				    url: this.apis+'/user/Wxauth/getUserAuth', //仅为示例，并非真实接口地址。
+				    url: this.apis+'/user/Wxauth/getUserAuth',
 				    data: {
 						code:this.codeval,
 						iv:this.ivval,
