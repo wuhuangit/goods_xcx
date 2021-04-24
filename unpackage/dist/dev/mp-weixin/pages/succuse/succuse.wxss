@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  padding: 30rpx 50rpx;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container .succuseicon image {
+  width: 300rpx;
+  height: 300rpx;
+}
+.container .btnitem {
+  width: 100%;
+  margin-top: 30rpx;
+  margin-bottom: 50rpx;
+}
+

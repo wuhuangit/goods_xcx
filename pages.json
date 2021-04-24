@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城"
+			}
+		},
+		{
+		    "path" : "pages/my/my",
+		    "style" : {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+            "path" : "pages/goods_detail/goods_detail",
+            "style" : {
+				"navigationBarTitleText": "商品详情"
+			}
+        }
+        ,{
+            "path" : "pages/adress/adress",
+            "style" : {
+				"navigationBarTitleText": "收货地址列表"
+			}
+        }
+        ,{
+            "path" : "pages/adress_detail/adress_detail",
+            "style" : {
+				"navigationBarTitleText": "修改地址"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "订单列表"
+			}
+        }
+        ,{
+            "path" : "pages/oder_detail/oder_detail",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/buy/buy",
+            "style" : {
+				"navigationBarTitleText": "确认订单"
+			}
+        }
+        ,{
+            "path" : "pages/pay/pay",
+            "style" : {
+				"navigationBarTitleText": "支付页面"
+			}
+        }
+        ,{
+            "path" : "pages/add_adress/add_adress",
+            "style" : {
+				"navigationBarTitleText": "新增地址"
+			}
+        }
+        ,{
+            "path" : "pages/succuse/succuse",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/err/err",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/car/car",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

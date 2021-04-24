@@ -1,0 +1,1 @@
+.container{width:100%;padding:30rpx 50rpx;text-align:center;box-sizing:border-box}.container .errtext{font-size:40rpx;text-align:center;color:red}

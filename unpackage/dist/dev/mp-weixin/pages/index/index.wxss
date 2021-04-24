@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  padding-bottom: 50rpx;
+}
+.container .serchbox {
+  width: 90%;
+  margin: 20rpx auto;
+  border: 1rpx solid #B5B5B5;
+  padding: 15rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  position: relative;
+}
+.container .serchbox .serchicon {
+  position: absolute;
+  right: 30rpx;
+  top: 15rpx;
+  font-size: 40rpx;
+}
+.container .navbox {
+  width: 100%;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.container .navbox .navitem,
+.container .navbox .navitem2 {
+  display: inline-block;
+  padding: 5px 10px;
+}
+.container .navbox .navitem2 {
+  border-bottom: 2px solid orangered;
+  color: orangered;
+}
+.container .goodslist {
+  width: 100%;
+  padding: 50rpx 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container .goodslist .listitem {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.container .goodslist .listitem .goodsimg {
+  width: 160rpx;
+  height: 160rpx;
+}
+.container .goodslist .listitem .goodsimg image {
+  width: 100%;
+  height: 100%;
+}
+.container .goodslist .listitem .goodsinfo {
+  width: 100rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  padding-bottom: 30rpx;
+}
+.container .goodslist .listitem .goodsinfo .goodsname {
+  font-size: 36rpx;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #333333;
+}
+.container .goodslist .listitem .goodsinfo .goodsname .zanicon {
+  margin-left: 20rpx;
+  color: orangered;
+}
+.container .goodslist .listitem .goodsinfo .goodsdec {
+  height: 60rpx;
+  width: 100%;
+  font-size: 28rpx;
+  color: #C1C1C1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container .goodslist .listitem .goodsinfo .goodsprice {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.container .goodslist .listitem .goodsinfo .goodsprice .pricexian {
+  color: orangered;
+  font-size: 40rpx;
+}
+.container .goodslist .listitem .goodsinfo .goodsprice .priceyuan {
+  color: #C1C1C1;
+  text-decoration: line-through;
+  margin-left: 15rpx;
+}
+.container .goodslist .loding {
+  width: 100%;
+  font-size: 32rpx;
+  text-align: center;
+}
+.container .footbox {
+  width: 100%;
+  background-color: white;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container .footbox .footitem,
+.container .footbox .footitem2 {
+  width: 50%;
+  height: 100%;
+  padding: 10rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 32rpx;
+}
+.container .footbox .footitem .itemicon,
+.container .footbox .footitem2 .itemicon {
+  font-size: 45rpx;
+}
+.container .footbox .footitem2 {
+  color: orangered;
+}
+

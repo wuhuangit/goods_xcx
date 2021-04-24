@@ -1,0 +1,1 @@
+<view class="container"><view class="succuseicon"><image style="width:300rpx;height:350rpx;" src="../../static/img/err.png"></image></view><view class="errtext">支付失败</view><view class="btnitem" style="margin-top:100rpx;"><button data-event-opts="{{[['tap',[['tohome',['$event']]]]]}}" bindtap="__e">返回首页</button></view></view>

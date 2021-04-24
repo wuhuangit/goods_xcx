@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/goods_detail/goods_detail",
+    "pages/adress/adress",
+    "pages/adress_detail/adress_detail",
+    "pages/order/order",
+    "pages/oder_detail/oder_detail",
+    "pages/buy/buy",
+    "pages/pay/pay",
+    "pages/add_adress/add_adress",
+    "pages/succuse/succuse",
+    "pages/err/err"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

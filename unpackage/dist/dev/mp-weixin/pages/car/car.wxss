@@ -1,0 +1,217 @@
+.container {
+  width: 100%;
+  padding-bottom: 66px;
+}
+.container .carlist {
+  width: 100%;
+  padding: 50rpx 5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container .carlist .checkcont {
+  width: 100%;
+  padding: 0 0px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.container .carlist .checkcont .itemcheck,
+.container .carlist .checkcont .itemcheck2 {
+  width: 35rpx;
+  height: 35rpx;
+  border: 1px solid #ccc;
+  margin-right: 40rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.container .carlist .checkcont .itemcheck2 {
+  border: 1px solid orangered;
+  background-color: orangered;
+}
+.container .carlist .listitem {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-bottom: 40rpx;
+}
+.container .carlist .listitem .itemcheck,
+.container .carlist .listitem .itemcheck2 {
+  width: 35rpx;
+  height: 35rpx;
+  border: 1px solid #ccc;
+  margin-right: 40rpx;
+  margin-top: 60rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.container .carlist .listitem .itemcheck2 {
+  border: 1px solid orangered;
+  background-color: orangered;
+}
+.container .carlist .listitem .itemright {
+  width: 100rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.container .carlist .listitem .itemright .goodsimg {
+  width: 160rpx;
+  height: 160rpx;
+}
+.container .carlist .listitem .itemright .goodsimg image {
+  width: 100%;
+  height: 100%;
+}
+.container .carlist .listitem .itemright .goodsinfo {
+  width: 100rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+  padding-bottom: 30rpx;
+}
+.container .carlist .listitem .itemright .goodsinfo .goodsname {
+  font-size: 36rpx;
+  font-weight: bold;
+  height: 60rpx;
+  line-height: 60rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333333;
+  width: 100%;
+}
+.container .carlist .listitem .itemright .goodsinfo .numbox {
+  width: 120px;
+  outline: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 5px;
+}
+.container .carlist .listitem .itemright .goodsinfo .numbox .numbtn {
+  width: 35px;
+  height: 30px;
+  background-color: #CCCCCC;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+.container .carlist .listitem .itemright .goodsinfo .numbox input {
+  width: 20px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.container .carlist .listitem .itemright .goodsinfo .goodsdec {
+  height: 60rpx;
+  width: 100%;
+  font-size: 28rpx;
+  color: #C1C1C1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.container .carlist .listitem .itemright .goodsinfo .goodsprice {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 30rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.container .carlist .listitem .itemright .goodsinfo .goodsprice .pricexian {
+  color: orangered;
+  font-size: 40rpx;
+}
+.container .carlist .listitem .itemright .goodsinfo .goodsprice .priceyuan {
+  color: #C1C1C1;
+  text-decoration: line-through;
+  margin-left: 15rpx;
+}
+.container .carbtnbox {
+  width: 100%;
+  position: fixed;
+  bottom: 55px;
+  left: 0;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 16px;
+  line-height: 40px;
+  z-index: 100;
+}
+.container .carbtnbox .carbtn {
+  height: 40px;
+  width: 100px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+.container .tishival {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.container .footbox {
+  width: 100%;
+  background-color: white;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ccc;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  z-index: 100;
+}
+.container .footbox .footitem,
+.container .footbox .footitem2 {
+  width: 50%;
+  height: 100%;
+  padding: 10rpx 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-size: 32rpx;
+}
+.container .footbox .footitem .itemicon,
+.container .footbox .footitem2 .itemicon {
+  font-size: 45rpx;
+}
+.container .footbox .footitem2 {
+  color: orangered;
+}
+
